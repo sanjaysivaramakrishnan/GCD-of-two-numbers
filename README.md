@@ -17,10 +17,20 @@ To write a program to find the GCD of two numbers using function.
 ```
 /*
 Program to find the gcd of two number using function.
-Developed by: 
-RegisterNumber:  
+Developed by: Sanjay siavaraamkrishnan M
+RegisterNumber:23013798  
 */
 ```
+def gcd():<br>
+     x = int(input())<br> 
+     y = int(input())<br>
+     sum=0<br>
+     for i in range(1,x+1):<br>
+         if(x%i==0 and y%i==0):<br>
+          sum=i<br>
+     print(f"GCD of two numbers is: {sum}")<br>
+      
+    
 
 ## Output:
 ![gcd of two number](gcd.png)
