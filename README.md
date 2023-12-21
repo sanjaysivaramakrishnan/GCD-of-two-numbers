@@ -18,9 +18,8 @@ To write a program to find the GCD of two numbers using function.
 /*
 Program to find the gcd of two number using function.
 Developed by: Sanjay siavaraamkrishnan M
-RegisterNumber:23013798  
-*/
-```
+RegisterNumber:23013798
+
 def gcd():<br>
      x = int(input())<br> 
      y = int(input())<br>
@@ -29,6 +28,9 @@ def gcd():<br>
          if(x%i==0 and y%i==0):<br>
           sum=i<br>
      print(f"GCD of two numbers is: {sum}")<br>
+*/
+```
+ 
       
     
 
